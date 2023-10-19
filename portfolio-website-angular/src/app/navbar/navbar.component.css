@@ -1,0 +1,21 @@
+.navbar-item {
+  color: #0d1317;
+  margin-right: 5vw;
+  background-color: unset;
+}
+
+.navbar-item:hover {
+  color: #6665dd;
+  background-color: unset;
+}
+
+.navbar-item.active {
+  color: #6665dd;
+  pointer-events: none;
+  cursor: default;
+}
+
+.navbar-burger {
+  background-color: unset;
+  display: inline-block;
+}

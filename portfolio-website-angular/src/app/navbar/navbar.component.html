@@ -1,0 +1,43 @@
+<nav
+  class="navbar is-transparent"
+  id="navbar"
+  role="navigation"
+  aria-label="main navigation"
+>
+  <a class="navbar-item"> <!-- Replace with logo -->TEST </a>
+
+  <div id="navbarBasic" class="navbar-end">
+    <div class="navbar-end">
+      <a
+        class="navbar-item"
+        id="navbar_item"
+        routerLink="/home"
+        routerLinkActive="active"
+      >
+        Home
+      </a>
+      <a class="navbar-item" id="navbar_item"> Who Am I </a>
+      <a
+        class="navbar-item"
+        id="navbar_item"
+        routerLink="/projects"
+        routerLinkActive="active"
+      >
+        Projects
+      </a>
+      <a
+        role="button"
+        class="navbar-burger"
+        id="navbar_item"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navbarBasic"
+        (click)="toggleNavBar()"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+</nav>
